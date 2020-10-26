@@ -9,34 +9,41 @@
 <body>
   <header class="header">
     <div class="header__logo">
-      <a class="header__logo-link" href="index.html">
-        <img class="header__logo-img" src="image/nimes-logo.svg" alt="photo: nimes-logo">
-      </a>
-    </div>
-    <div class="menu">
-      <nav class="menu__nav">
-        <a href="#" class="menu__link">Woman</a>
-        <a href="#" class="menu__link">Man</a>
-        <a href="#" class="menu__link">New</a>
-      </nav>
-    </div>
-    <div class="header__search">
-      <input type="text" placeholder="Поиск" class="header__search-input">
-      <button class="header__serch-btn">
-        <svg class="icon icon-search">
-          <use xlink:href="image/icins.svg#search"></use>
-        </svg>
-      </button>
-    </div>
-    <button class="header__basket">
-      <svg class="icon icon-basket">
-        <use xlink:href="image/icins.svg#search"></use>
-      </svg>
-    </button>
-    <div class="hero">
-      <img src="image/hero-img.jpg" alt="photo: denim" class="hero__img">
-      <h1 class="header__title"><span>The quality you deserve</span><br>Denim</h1>
-      <a href="#" class="btn hero__link">Check new collection</a>
+      <div class="container">
+        <a class="header__logo-link" href="index.html">
+          <img class="header__logo-img" src="image/nimes-logo.svg" alt="photo: nimes-logo">
+        </a>
+        <div class="header__wrapper">
+          <div class="menu">
+            <nav class="menu__nav">
+              <a href="#" class="menu__link">Woman</a>
+              <a href="#" class="menu__link">Man</a>
+              <a href="#" class="menu__link">New</a>
+            </nav>
+          </div>
+          <div class="input-group">
+            <div class="header__search">
+              <input type="text" placeholder="Поиск" class="header__search-input">
+              <button class="header__search-btn">
+                <svg class="icon icon-search">
+                  <use xlink:href="image/icons.svg#search"></use>
+                </svg>
+              </button>
+            </div>
+            <button class="header__basket">
+              <svg class="icon icon-basket">
+                <use xlink:href="image/icons.svg#basket"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="hero">
+          <img src="image/hero-img.jpg" alt="photo: denim" class="hero__img">
+          <span class="hero__description">The quality you deserve</span>
+          <h1 class="hero__title">Denim</h1>
+          <a href="#" class="btn hero__link">Check new collection</a>
+        </div>
+      </div>
     </div>
   </header>
   <!-- /.header -->
