@@ -4,6 +4,7 @@
   src: url('../fonts/WorkSans-Regular.eot?#iefix') format('embeddedopentype'),
        url('../fonts/WorkSans-Regular.woff') format('woff'),
        url('../fonts/WorkSans-Regular.ttf') format('truetype');
+  font-weight: normal; 
 }
 
 @font-face {
@@ -12,6 +13,7 @@
   src: url('../fonts/WorkSans-Medium.eot?#iefix') format('embeddedopentype')
        url('../fonts/WorkSans-Medium.woff') format('woff'),
        url('../fonts/WorkSans-Medium.ttf') format('truetype');
+  font-weight: normal; 
 }
 
 @font-face {
@@ -20,6 +22,7 @@
   src: url('../fonts/WorkSans-Bold.eot?#iefix') format('embeddedopentype')
        url('../fonts/WorkSans-Bold.woff') format('woff'),
        url('../fonts/WorkSans-Bold.ttf') format('truetype');
+  font-weight: bold; 
 }
 
 @font-face {
@@ -28,6 +31,7 @@
   src: url('../fonts/WorkSans-ExtraBold.eot?#iefix') format('embeddedopentype')
        url('../fonts/WorkSans-ExtraBold.woff') format('woff'),
        url('../fonts/WorkSans-ExtraBold.ttf') format('truetype');
+  font-weight: bold;    
 }
 
 @font-face {

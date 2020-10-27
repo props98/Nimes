@@ -1,0 +1,47 @@
+@media (max-width: 320px)
+  .features
+    &-wrap
+      padding: 60px 0
+    &__title
+      +bold
+      font-size: 26px
+      color: $main-dark
+      margin: 0
+      margin-bottom: 40px
+    &__list
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      list-style: none
+      padding: 0
+      margin: 0
+      margin-bottom: 10px
+    &__img
+      width: 130px
+      height: 160px
+    &__link
+      text-align: center
+      display: block
+      max-width: 70px
+      margin: 0 auto
+      +medium
+      color: $main-dark
+      font-size: 16px
+      text-decoration: none
+      border-bottom: 1px solid $main-dark
+      padding-bottom: 7px
+    &-item
+      display: flex
+      flex-direction: column
+      margin-top: 15px
+      &__goods-name
+        +bold
+        color: $main-dark
+        font-size: 16px
+        margin-bottom: 10px
+      &__price
+        +extraBold
+        color: $main-dark
+        font-weight: bold
+        font-size: 14px
+        margin-bottom: 30px
