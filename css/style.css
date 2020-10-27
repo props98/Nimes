@@ -1,11 +1,3 @@
-@media (max-width: 320px) {
-  .container {
-    width: 300px;
-    padding: 0 10px;
-    margin: 0 auto;
-  }
-}
-
 @font-face {
   font-family: 'WorkSans-Regular';
   src: url("../fonts/WorkSans-Regular.eot");
@@ -41,40 +33,35 @@ body {
   font-size: 62.5%;
 }
 
+@media (max-width: 320px) {
+  .container {
+    width: 300px;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+}
+
 .btn {
   background-color: transparent;
   border: none;
   padding: 0;
 }
 
-@font-face {
-  font-family: 'WorkSans-Regular';
-  src: url("../fonts/WorkSans-Regular.eot");
-  src: url("../fonts/WorkSans-Regular.eot?#iefix") format("embeddedopentype"), url("../fonts/WorkSans-Regular.woff") format("woff"), url("../fonts/WorkSans-Regular.ttf") format("truetype");
+.hero__link {
+  font-family: 'WorkSans-ExtraBold', sans-serif;
+  display: block;
+  max-width: 170px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #151C22;
+  padding: 27px 17px;
 }
 
-@font-face {
-  font-family: 'WorkSans-Medium';
-  src: url("../fonts/WorkSans-Medium.eot");
-  src: url("../fonts/WorkSans-Medium.eot?#iefix") format("embeddedopentype") url("../fonts/WorkSans-Medium.woff") format("woff"), url("../fonts/WorkSans-Medium.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: 'WorkSans-Bold';
-  src: url("../fonts/WorkSans-Bold.eot");
-  src: url("../fonts/WorkSans-Bold.eot?#iefix") format("embeddedopentype") url("../fonts/WorkSans-Bold.woff") format("woff"), url("../fonts/WorkSans-Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: 'WorkSans-ExtraBold';
-  src: url("../fonts/WorkSans-ExtraBold.eot");
-  src: url("../fonts/WorkSans-ExtraBold.eot?#iefix") format("embeddedopentype") url("../fonts/WorkSans-ExtraBold.woff") format("woff"), url("../fonts/WorkSans-ExtraBold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: 'Anton-Regular';
-  src: url("../fonts/Anton-Regular.eot");
-  src: url("../fonts/Anton-Regular.eot?#iefix") format("embeddedopentype") url("../fonts/Anton-Regular.woff") format("woff"), url("../fonts/Anton-Regular.ttf") format("truetype");
+.header {
+  background: #F1F2F4;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 320px) {
@@ -91,7 +78,7 @@ body {
     max-height: 17px;
   }
   .logo--top {
-    background: #F1F2F4;
+    background: #ffffff;
     padding: 20px;
   }
   .logo--center {
@@ -170,7 +157,7 @@ body {
     height: 80px;
     position: absolute;
     background: url("../image/decElem.png") center center/100% no-repeat;
-    bottom: 160px;
+    bottom: 260px;
     right: 20px;
     -webkit-transform: scale(1, -1);
             transform: scale(1, -1);
@@ -193,12 +180,7 @@ body {
     text-transform: uppercase;
     margin: 0;
     padding: 0;
-  }
-}
-
-@media (max-width: 320px) {
-  .site-header {
-    background: #F1F2F4;
+    margin-bottom: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
