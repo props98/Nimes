@@ -1,35 +1,40 @@
 @font-face {
   font-family: 'WorkSans-Regular';
   src: url('../fonts/WorkSans-Regular.eot');
-  src: url('../fonts/WorkSans-Regular.woff') format('woff'),
+  src: url('../fonts/WorkSans-Regular.eot?#iefix') format('embeddedopentype'),
+       url('../fonts/WorkSans-Regular.woff') format('woff'),
        url('../fonts/WorkSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'WorkSans-Medium';
   src: url('../fonts/WorkSans-Medium.eot');
-  src: url('../fonts/WorkSans-Medium.woff') format('woff'),
+  src: url('../fonts/WorkSans-Medium.eot?#iefix') format('embeddedopentype')
+       url('../fonts/WorkSans-Medium.woff') format('woff'),
        url('../fonts/WorkSans-Medium.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'WorkSans-Bold';
   src: url('../fonts/WorkSans-Bold.eot');
-  src: url('../fonts/WorkSans-Bold.woff') format('woff'),
+  src: url('../fonts/WorkSans-Bold.eot?#iefix') format('embeddedopentype')
+       url('../fonts/WorkSans-Bold.woff') format('woff'),
        url('../fonts/WorkSans-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'WorkSans-ExtraBold';
   src: url('../fonts/WorkSans-ExtraBold.eot');
-  src: url('../fonts/WorkSans-ExtraBold.woff') format('woff'),
+  src: url('../fonts/WorkSans-ExtraBold.eot?#iefix') format('embeddedopentype')
+       url('../fonts/WorkSans-ExtraBold.woff') format('woff'),
        url('../fonts/WorkSans-ExtraBold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Anton-Regular';
   src: url('../fonts/Anton-Regular.eot');
-  src: url('../fonts/Anton-Regular.woff') format('woff'),
+  src: url('../fonts/Anton-Regular.eot?#iefix') format('embeddedopentype')
+       url('../fonts/Anton-Regular.woff') format('woff'),
        url('../fonts/Anton-Regular.ttf') format('truetype');
 }
 

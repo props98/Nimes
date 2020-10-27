@@ -1,0 +1,41 @@
+@media (max-width: 320px)
+  .hero
+    text-align: center
+    position: relative
+    &-wrap
+      margin-bottom: 50px
+      &::before
+        content: ""
+        width: 109px
+        height: 80px
+        position: absolute
+        background: url('../image/decElem.png') center center / 100% no-repeat;
+        top: -20px
+        left: 20px
+      &::after
+        content: ""
+        width: 109px
+        height: 80px
+        position: absolute
+        background: url('../image/decElem.png') center center / 100% no-repeat;
+        bottom: 160px
+        right: 20px
+        transform: scale(1, -1)
+    &__img
+      position: relative
+      z-index: 100
+    &__slogan
+      font-size: 18px
+      line-height: 21px
+      color: $secondary-grey
+
+      padding: 0
+      margin: 0
+    &__title
+      +antonRegular
+      font-size: 86px
+      color: $main-dark
+      text-transform: uppercase
+
+      margin: 0
+      padding: 0

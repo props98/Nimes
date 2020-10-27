@@ -1,77 +1,198 @@
 @media (max-width: 320px) {
   .container {
-    width: 320px;
+    width: 300px;
     padding: 0 10px;
+    margin: 0 auto;
   }
 }
 
 @font-face {
   font-family: 'WorkSans-Regular';
   src: url("../fonts/WorkSans-Regular.eot");
-  src: url("../fonts/WorkSans-Regular.woff") format("woff"), url("../fonts/WorkSans-Regular.ttf") format("truetype");
+  src: url("../fonts/WorkSans-Regular.eot?#iefix") format("embeddedopentype"), url("../fonts/WorkSans-Regular.woff") format("woff"), url("../fonts/WorkSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'WorkSans-Medium';
   src: url("../fonts/WorkSans-Medium.eot");
-  src: url("../fonts/WorkSans-Medium.woff") format("woff"), url("../fonts/WorkSans-Medium.ttf") format("truetype");
+  src: url("../fonts/WorkSans-Medium.eot?#iefix") format("embeddedopentype") url("../fonts/WorkSans-Medium.woff") format("woff"), url("../fonts/WorkSans-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'WorkSans-Bold';
   src: url("../fonts/WorkSans-Bold.eot");
-  src: url("../fonts/WorkSans-Bold.woff") format("woff"), url("../fonts/WorkSans-Bold.ttf") format("truetype");
+  src: url("../fonts/WorkSans-Bold.eot?#iefix") format("embeddedopentype") url("../fonts/WorkSans-Bold.woff") format("woff"), url("../fonts/WorkSans-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'WorkSans-ExtraBold';
   src: url("../fonts/WorkSans-ExtraBold.eot");
-  src: url("../fonts/WorkSans-ExtraBold.woff") format("woff"), url("../fonts/WorkSans-ExtraBold.ttf") format("truetype");
+  src: url("../fonts/WorkSans-ExtraBold.eot?#iefix") format("embeddedopentype") url("../fonts/WorkSans-ExtraBold.woff") format("woff"), url("../fonts/WorkSans-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Anton-Regular';
   src: url("../fonts/Anton-Regular.eot");
-  src: url("../fonts/Anton-Regular.woff") format("woff"), url("../fonts/Anton-Regular.ttf") format("truetype");
+  src: url("../fonts/Anton-Regular.eot?#iefix") format("embeddedopentype") url("../fonts/Anton-Regular.woff") format("woff"), url("../fonts/Anton-Regular.ttf") format("truetype");
 }
 
 body {
   font-family: 'WorkSans-Regular', sans-serif;
+  font-size: 62.5%;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
 }
 
 @font-face {
   font-family: 'WorkSans-Regular';
   src: url("../fonts/WorkSans-Regular.eot");
-  src: url("../fonts/WorkSans-Regular.woff") format("woff"), url("../fonts/WorkSans-Regular.ttf") format("truetype");
+  src: url("../fonts/WorkSans-Regular.eot?#iefix") format("embeddedopentype"), url("../fonts/WorkSans-Regular.woff") format("woff"), url("../fonts/WorkSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'WorkSans-Medium';
   src: url("../fonts/WorkSans-Medium.eot");
-  src: url("../fonts/WorkSans-Medium.woff") format("woff"), url("../fonts/WorkSans-Medium.ttf") format("truetype");
+  src: url("../fonts/WorkSans-Medium.eot?#iefix") format("embeddedopentype") url("../fonts/WorkSans-Medium.woff") format("woff"), url("../fonts/WorkSans-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'WorkSans-Bold';
   src: url("../fonts/WorkSans-Bold.eot");
-  src: url("../fonts/WorkSans-Bold.woff") format("woff"), url("../fonts/WorkSans-Bold.ttf") format("truetype");
+  src: url("../fonts/WorkSans-Bold.eot?#iefix") format("embeddedopentype") url("../fonts/WorkSans-Bold.woff") format("woff"), url("../fonts/WorkSans-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'WorkSans-ExtraBold';
   src: url("../fonts/WorkSans-ExtraBold.eot");
-  src: url("../fonts/WorkSans-ExtraBold.woff") format("woff"), url("../fonts/WorkSans-ExtraBold.ttf") format("truetype");
+  src: url("../fonts/WorkSans-ExtraBold.eot?#iefix") format("embeddedopentype") url("../fonts/WorkSans-ExtraBold.woff") format("woff"), url("../fonts/WorkSans-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Anton-Regular';
   src: url("../fonts/Anton-Regular.eot");
-  src: url("../fonts/Anton-Regular.woff") format("woff"), url("../fonts/Anton-Regular.ttf") format("truetype");
+  src: url("../fonts/Anton-Regular.eot?#iefix") format("embeddedopentype") url("../fonts/Anton-Regular.woff") format("woff"), url("../fonts/Anton-Regular.ttf") format("truetype");
 }
 
 @media (max-width: 320px) {
+  .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logo__img {
+    max-width: 75px;
+    max-height: 17px;
+  }
   .logo--top {
-    background: #ffffff;
+    background: #F1F2F4;
+    padding: 20px;
+  }
+  .logo--center {
+    display: none;
+  }
+}
+
+.menu-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0 40px;
+}
+
+.menu__list {
+  min-width: 185px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu__link {
+  font-size: 16px;
+  font-family: 'WorkSans-Medium', sans-serif;
+  line-height: 19px;
+  color: #151C22;
+  text-decoration: none;
+}
+
+@media (max-width: 320px) {
+  .input-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .input-group__input {
+    display: none;
+  }
+  .input-group__icon-basket {
+    margin-left: 23px;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero {
+    text-align: center;
+    position: relative;
+  }
+  .hero-wrap {
+    margin-bottom: 50px;
+  }
+  .hero-wrap::before {
+    content: "";
+    width: 109px;
+    height: 80px;
+    position: absolute;
+    background: url("../image/decElem.png") center center/100% no-repeat;
+    top: -20px;
+    left: 20px;
+  }
+  .hero-wrap::after {
+    content: "";
+    width: 109px;
+    height: 80px;
+    position: absolute;
+    background: url("../image/decElem.png") center center/100% no-repeat;
+    bottom: 160px;
+    right: 20px;
+    -webkit-transform: scale(1, -1);
+            transform: scale(1, -1);
+  }
+  .hero__img {
+    position: relative;
+    z-index: 100;
+  }
+  .hero__slogan {
+    font-size: 18px;
+    line-height: 21px;
+    color: #727A82;
+    padding: 0;
+    margin: 0;
+  }
+  .hero__title {
+    font-family: 'Anton-Regular', sans-serif;
+    font-size: 86px;
+    color: #151C22;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
   }
 }
 
