@@ -391,19 +391,35 @@ template {
 .btn {
   background-color: transparent;
   border: none;
+  text-decoration: none;
   padding: 0;
 }
 
-.hero__link {
-  font-family: 'WorkSans-ExtraBold', sans-serif;
-  display: block;
-  max-width: 170px;
-  margin: 0 auto;
-  font-size: 16px;
-  color: #ffffff;
-  text-decoration: none;
-  background: #151C22;
-  padding: 27px 17px;
+@media (max-width: 320px) {
+  .hero__link {
+    font-family: 'WorkSans-ExtraBold', sans-serif;
+    display: block;
+    max-width: 170px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    background: #151C22;
+    padding: 27px 17px;
+  }
+  .promo__link {
+    font-family: 'WorkSans-ExtraBold', sans-serif;
+    display: block;
+    max-width: 150px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    background: #151C22;
+    padding: 24px 35px;
+  }
 }
 
 .header {
@@ -593,6 +609,36 @@ template {
     color: #151C22;
     font-weight: bold;
     font-size: 14px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .promo-container {
+    width: 290px;
+    padding: 0 15px;
+    padding-top: 15px;
+    background: url("/image/DecorElem2.png") center top/120% repeat-y;
+  }
+  .promo__box {
+    text-align: center;
+    background-color: #F1F2F4;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .promo__text {
+    color: #727A82;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+  .promo__title {
+    display: block;
+    font-family: 'WorkSans-ExtraBold', sans-serif;
+    color: #151C22;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 0;
     margin-bottom: 30px;
   }
 }
