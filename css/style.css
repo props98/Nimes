@@ -396,7 +396,19 @@ template {
 }
 
 @media (max-width: 320px) {
-  .hero__link {
+  .btn-link {
+    text-align: center;
+    display: block;
+    max-width: 70px;
+    margin: 0 auto;
+    font-family: 'WorkSans-Medium', sans-serif;
+    color: #151C22;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #151C22;
+    padding-bottom: 7px;
+  }
+  .button-hero {
     font-family: 'WorkSans-ExtraBold', sans-serif;
     display: block;
     max-width: 170px;
@@ -408,10 +420,10 @@ template {
     background: #151C22;
     padding: 27px 17px;
   }
-  .promo__link {
+  .button-promo {
     font-family: 'WorkSans-ExtraBold', sans-serif;
     display: block;
-    max-width: 150px;
+    max-width: 140px;
     margin: 0 auto;
     font-size: 16px;
     font-weight: bold;
@@ -575,18 +587,6 @@ template {
   .features__img {
     width: 130px;
     height: 160px;
-  }
-  .features__link {
-    text-align: center;
-    display: block;
-    max-width: 70px;
-    margin: 0 auto;
-    font-family: 'WorkSans-Medium', sans-serif;
-    color: #151C22;
-    font-size: 16px;
-    text-decoration: none;
-    border-bottom: 1px solid #151C22;
-    padding-bottom: 7px;
   }
   .features-item {
     display: -webkit-box;

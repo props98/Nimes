@@ -6,31 +6,32 @@
   padding: 0
 
 @media (max-width: 320px)
-  .hero
-    &__link
-      +extraBold
+  .btn
+    &-link
+      text-align: center
       display: block
+      max-width: 70px
+      margin: 0 auto
+      
+      +medium
+      color: $main-dark
+      font-size: 16px
+      text-decoration: none
+      border-bottom: 1px solid $main-dark
+      padding-bottom: 7px
+  .button
+      display: block
+      margin: 0 auto
+
+      +extraBold
+      font-size: 16px
+      font-weight: bold
+      color: $white
+      text-decoration: none
+      background: $main-dark
+    &-hero
       max-width: 170px
-      margin: 0 auto
-
-      font-size: 16px
-      font-weight: bold
-      color: $white
-      text-decoration: none
-
-      background: $main-dark
       padding: 27px 17px
-  .promo
-    &__link
-      +extraBold
-      display: block
-      max-width: 150px
-      margin: 0 auto
-
-      font-size: 16px
-      font-weight: bold
-      color: $white
-      text-decoration: none
-
-      background: $main-dark
+    &-promo
+      max-width: 140px
       padding: 24px 35px
