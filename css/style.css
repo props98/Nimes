@@ -416,13 +416,13 @@ template {
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
-    background: #151C22;
+    background-color: #151C22;
   }
-  .button-hero {
+  .button--hero {
     max-width: 170px;
     padding: 27px 17px;
   }
-  .button-promo {
+  .button--promo {
     max-width: 140px;
     padding: 24px 35px;
   }
@@ -612,7 +612,7 @@ template {
     width: 290px;
     padding: 0 15px;
     padding-top: 15px;
-    background: url("/image/DecorElem2.png") center top/120% repeat-y;
+    background: url("../image/DecorElem2.png") center top/120% repeat-y;
   }
   .promo__box {
     text-align: center;
