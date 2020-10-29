@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-header header">
+  <header class="header header-site">
     <div class="header_logo logo logo--top">
       <div class="logo__wrap">
         <a class="logo__link" href="index.html">
@@ -18,7 +18,7 @@
     </div>
     <!-- /.logo--top -->
     <div class="container">
-      <div class="menu-wrap menu">
+      <div class="menu menu-wrap">
         <div class="menu">
           <nav class="menu__nav">
             <ul class="menu__list">
@@ -109,12 +109,14 @@
             </div>
           </li>
         </ul>
-        <a href="#" class="feature-link btn-link">View all</a>
+        <div class="features link link--size">
+          <a href="#" class="feature-link link__btn">View all</a>
+        </div>
       </div>
     </section>
     <!-- /.features -->
 
-    <section class="promo-wrap promo">
+    <section class="promo promo-wrap">
       <div class="promo-container container">
         <div class="promo__box">
           <p class="promo__text">Street fashion collection</p>
@@ -126,7 +128,7 @@
     </section>
     <!-- /.promo -->
 
-    <section class="goods-wrap goods">
+    <section class="goods goods-wrap">
       <div class="container">
         <h2 class="goods__title">Shop by category</h2>
         <ul class="goods__list">
@@ -159,11 +161,78 @@
             </li>
           </div>
         </ul>
-        <a href="#" class="goods-link btn-link">View all</a>
+        <div class="goods link link--size">
+          <a href="#" class="goods-link link__btn">View all</a>
+        </div>
       </div>
     </section>
     <!-- /.category-goods -->
   </main>
-  <!-- /.site-main -->
+  <!-- /main -->
+
+  <footer class="footer footer-wrap">
+    <div class="container">
+      <ul class="footer__list">
+        <div class="footer__list-wrap">
+          <li class="footer__item">
+            <a href="#" class="footer__link">
+              <div class="footer__logo">
+                <img src="image/nimes-logo_footer.svg" alt="photo: logo nimes" class="footer__img">
+              </div>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Shop</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Delivery</a>
+          </li>
+        </div>
+        <div class="footer__list-wrap">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Sitemap</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Service</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Contacts</a>
+          </li>
+        </div>
+      </ul>
+      <div class="footer footer-social">
+        <ul class="footer-social__list">
+          <li class="footer-social__item">
+            <a href="" class="footer-social__link">
+              <svg class="icon footer-social__icon footer-social__icon--fb" width="10.5" height="20">
+                <use xlink:href="image/social-icons.svg#fb"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__item">
+            <a href="" class="footer-social__link">
+              <svg class="icon footer-social__icon footer-social__icon--inst" width="20" height="20">
+                <use xlink:href="image/social-icons.svg#inst"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__item">
+            <a href="" class="footer-social__link">
+              <svg class="icon footer-social__icon footer-social__icon--pin" width="20" height="20">
+                <use xlink:href="image/social-icons.svg#pin"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__item">
+            <a href="" class="footer-social__link">
+              <svg class="icon footer-social__icon footer-social__icon--twit" width="20.38" height="16.47">
+                <use xlink:href="image/social-icons.svg#twit"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
