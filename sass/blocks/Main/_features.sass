@@ -1,14 +1,17 @@
-@media (max-width: 320px)
+@media (max-width: 768px)
   .features
     &-wrap
-      padding: 60px 0
+      padding: 100px 0
+    &__link-wrap
+      display: flex
+      justify-content: space-between
+      margin-bottom: 10px
     &__title
-      word-wrap: break-word
       +bold
-      font-size: 26px
+      font-size: 28px
+      font-weight: bold
       color: $main-dark
       margin: 0
-      margin-bottom: 40px
     &__list
       display: flex
       flex-wrap: wrap
@@ -16,10 +19,9 @@
       list-style: none
       padding: 0
       margin: 0
-      margin-bottom: 10px
-    &__img
-      width: 130px
-      height: 160px
+      margin-bottom: 0
+    &__item
+      margin-top: 50px  
     &-item
       display: flex
       flex-direction: column
@@ -27,11 +29,34 @@
       &__goods-name
         +bold
         color: $main-dark
-        font-size: 16px
+        font-size: 18px
         margin-bottom: 10px
       &__price
         +extraBold
         color: $main-dark
         font-weight: bold
+        font-size: 16px
+@media (max-width: 320px)
+  .features
+    &-wrap
+      padding: 60px 0
+    &__title
+      word-wrap: break-word
+      font-size: 26px
+    &__list
+      margin-bottom: 40px
+    &__img
+      width: 130px
+      height: 160px
+    &__item
+      margin-top: 30px   
+    &-item
+      display: flex
+      flex-direction: column
+      margin-top: 15px
+      &__goods-name
+        font-size: 16px
+        margin-bottom: 10px
+      &__price
+        +extraBold
         font-size: 14px
-        margin-bottom: 30px

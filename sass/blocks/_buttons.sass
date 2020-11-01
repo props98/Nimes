@@ -18,21 +18,31 @@
       padding: 27px 17px
     &--promo
       max-width: 140px
-      padding: 24px 35px  
+      padding: 24px 35px
+  .link
+    &--bottom
+      display: none
+    &__btn
+      +medium
+      color: $main-dark
+      font-size: 18px
+      line-height: 35px
+      text-decoration: none
+      border-bottom: 1px solid $main-dark
+      padding-bottom: 7px
 @media (max-width: 320px)
   .link
+    &--top
+      display: none
+    &--bottom
+      display: block
     &--size
       text-align: center
     &__btn
       text-align: center
       
-      +medium
-      color: $main-dark
       font-size: 16px
       line-height: 35px
-      text-decoration: none
-      border-bottom: 1px solid $main-dark
-      padding-bottom: 7px
   .button
     display: block
     margin: 0 auto
