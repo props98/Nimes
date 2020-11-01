@@ -1,34 +1,79 @@
-.footer
-  &-wrap
-    background: $main-dark
-    padding-top: 54px
-    padding-bottom: 52px
-  &__list
-    list-style: none
-    padding: 0
-    margin: 0
-    margin-right: 80px
+@media (max-width: 768px)
+  .footer
     &-wrap
-      display: flex
-      align-items: flex-end
-
-      margin-bottom: 12px
-  &__item
-    margin-bottom: 30px
-  &__link
-    +medium
-    color: $white
-    font-size: 18px
-    text-decoration: none
-  &-social
-    &__icon
-      fill: $white
+      background: $main-dark
+      padding-top: 50px
+      padding-bottom: 52px
+    &__item-logo
+      padding-bottom: 40px
+      &--list
+        display: none
+    &__logo-link
+      display: block
+      width: 75px
+      margin: 0 auto
     &__list
-      display: flex
-      align-items: center
-
       list-style: none
+      display: flex
       padding: 0
       margin: 0
+      &-wrap
+        display: flex
+        justify-content: center
+        margin-bottom: 42px
     &__item
-      margin-right: 34px 
+      padding: 10px 15px
+    &__link
+      +medium
+      color: $white
+      font-size: 18px
+      text-decoration: none
+    &-social
+      &__icon
+        fill: $white
+      &__list
+        display: flex
+        align-items: center
+        justify-content: space-between
+        list-style: none
+        padding: 0 250px
+        margin: 0
+
+@media (max-width: 320px)
+  .footer
+    &-wrap
+      padding-top: 54px
+      padding-bottom: 52px
+    &__item
+      &-logo
+        padding: 0
+        &--top
+          display: none
+        &--list
+          display: block
+    &__list
+      flex-direction: column
+      list-style: none
+      margin-right: 80px
+      &-wrap
+        display: flex
+        justify-content: flex-start
+        margin-bottom: 12px
+    &__item
+      padding: 0
+      margin-bottom: 30px
+    &__link
+      +medium
+      color: $white
+      font-size: 18px
+      text-decoration: none
+    &-social
+      &__list
+        display: flex
+        align-items: center
+        justify-content: flex-start
+        list-style: none
+        padding: 0
+        margin: 0
+      &__item
+        margin-right: 34px 
