@@ -1,9 +1,67 @@
+@media (max-width: 768px)
+  .hero
+    display: flex
+    flex-direction: row-reverse
+    &-wrap
+      max-width: 264px
+      max-height: 319px
+      position: relative
+      padding-right: 30px
+      &::before
+        content: ""
+        width: 141px
+        height: 104px
+        position: absolute
+        background: url('../image/decElem.png') center center / 100% no-repeat;
+        top: -30px
+        left: -30px
+      &::after
+        content: ""
+        width: 141px
+        height: 104px
+        position: absolute
+        background: url('../image/decElem.png') center center / 100% no-repeat;
+        bottom: -30px
+        right: 0px
+        transform: scale(1, -1)
+    &__img
+      width: 100%
+      height: 100%
+      position: relative
+      z-index: 100
+    &__text-wrap
+      padding-right: 67px
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: flex-end
+    &__slogan
+      font-size: 18px
+      line-height: 21px
+      color: $secondary-grey
+
+      padding: 0
+      margin: 0
+      margin-bottom: 25px
+    &__title
+      +antonRegular
+      font-size: 98px
+      color: $main-dark
+      text-transform: uppercase
+      margin: 0
+      margin-bottom: 60px
+
 @media (max-width: 320px)
   .hero
+    display: flex
+    flex-direction: column
+    align-items: center
     text-align: center
-    position: relative
     &-wrap
+      width: 202px
+      height: 249px
       margin-bottom: 50px
+      padding: 0
       &::before
         content: ""
         width: 109px
@@ -11,19 +69,25 @@
         position: absolute
         background: url('../image/decElem.png') center center / 100% no-repeat;
         top: -20px
-        left: 20px
+        left: -20px
       &::after
         content: ""
         width: 109px
         height: 80px
         position: absolute
         background: url('../image/decElem.png') center center / 100% no-repeat;
-        bottom: 260px
-        right: 20px
+        bottom: -20px
+        right: -20px
         transform: scale(1, -1)
     &__img
-      position: relative
-      z-index: 100
+      width: 100%
+      height: 100%
+    &__text-wrap
+      padding-right: 0px
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: flex-end
     &__slogan
       font-size: 18px
       line-height: 21px
