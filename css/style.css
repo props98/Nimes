@@ -547,6 +547,7 @@ template {
     font-family: 'Anton-Regular', sans-serif;
     font-size: 86px;
     color: #151C22;
+    word-wrap: break-word;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
@@ -585,6 +586,7 @@ template {
     height: 160px;
   }
   .features-item {
+    max-width: 130px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -593,6 +595,7 @@ template {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 15px;
+    word-wrap: break-word;
   }
   .features-item__goods-name {
     font-family: 'WorkSans-Bold', sans-serif;
@@ -666,7 +669,9 @@ template {
             justify-content: space-between;
   }
   .goods__item {
+    max-width: 130px;
     list-style: none;
+    word-wrap: break-word;
   }
   .goods-item {
     margin-top: 15px;
