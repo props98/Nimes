@@ -507,9 +507,9 @@ template {
 @media (max-width: 320px) {
   .hero {
     text-align: center;
-    position: relative;
   }
   .hero-wrap {
+    position: relative;
     margin-bottom: 50px;
   }
   .hero-wrap::before {
@@ -527,7 +527,7 @@ template {
     height: 80px;
     position: absolute;
     background: url("../image/decElem.png") center center/100% no-repeat;
-    bottom: 260px;
+    bottom: -20px;
     right: 20px;
     -webkit-transform: scale(1, -1);
             transform: scale(1, -1);
