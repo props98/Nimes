@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header header-site">
+  <header class="header header__site">
     <div class="header_logo logo logo--top">
       <div class="logo__wrap">
         <a class="logo__link" href="index.html">
@@ -19,7 +19,7 @@
     <!-- /.logo -->
 
     <div class="container">
-      <div class="menu menu-wrap">
+      <div class="menu menu__wrap">
         <div class="menu">
           <nav class="menu__nav">
             <ul class="menu__list">
@@ -63,7 +63,7 @@
       </div>
 
       <div class="hero">
-        <div class="hero-wrap">
+        <div class="hero__wrap">
           <img src="image/hero-img.jpg" width="202" height="249" alt="photo: denim" class="hero__img">
         </div>
         <div class="hero__text-wrap">
@@ -73,14 +73,14 @@
         </div>
       </div>
       <div class="header menu-social">
-        <a class="menu-social__link menu-social__link--arrow"href="#">
+        <a class="menu-social__link menu-social__link--arrow" href="#">
           <svg class="icon menu-social__img" width="10" height="27">
             <use xlink:href="/image/icons.svg#arrow-d"></use>
           </svg>
         </a>
         <div class="menu-social__wrap">
-          <a class="menu-social__link menu-social__link--inst"href="#">Instagram</a>
-          <a class="menu-social__link menu-social__link--fb"href="#">Facebook</a>
+          <a class="menu-social__link menu-social__link--inst" href="#">Instagram</a>
+          <a class="menu-social__link menu-social__link--fb" href="#">Facebook</a>
         </div>
       </div>
     </div>
@@ -91,7 +91,7 @@
   </header>
   <!-- /.header -->
   <main class="site-main">
-    <section class="features-wrap features">
+    <section class="features features__wrap">
       <div class="container">
         <div class="features features__link-wrap">
           <h2 class="features__title">Bestsellers</h2>
@@ -102,30 +102,30 @@
         <ul class="features__list">
           <li class="features__item">
             <img src="image/feature-01.jpg" alt="photo: model" class="features__img">
-            <div class="features features-item">
-              <span class="features-item__goods-name">Jacket</span>
-              <span class="features-item__price">$ 120</span>
+            <div class="features__text">
+              <span class="features__name">Jacket</span>
+              <span class="features__price">$ 120</span>
             </div>
           </li>
           <li class="features__item">
             <img src="image/feature-02.jpg" alt="photo: model" class="features__img">
-            <div class="features features-item">
-              <span class="features-item__goods-name">Overvalls</span>
-              <span class="features-item__price">$ 140</span>
+            <div class="features__text">
+              <span class="features__name">Overvalls</span>
+              <span class="features__price">$ 140</span>
             </div>
           </li>
           <li class="features__item">
             <img src="image/feature-03.jpg" alt="photo: model" class="features__img">
-            <div class="features features-item">
-              <span class="features-item__goods-name">Jacket</span>
-              <span class="features-item__price">$ 90</span>
+            <div class="features__text">
+              <span class="feature__name">Jacket</span>
+              <span class="features__price">$ 90</span>
             </div>
           </li>
           <li class="features__item">
             <img src="image/feature-04.jpg" alt="photo: model" class="features__img">
-            <div class="features features-item">
-              <span class="features-item__goods-name">Overvalls</span>
-              <span class="features-item__price">$ 160</span>
+            <div class="features__text">
+              <span class="features__name">Overvalls</span>
+              <span class="features__price">$ 160</span>
             </div>
           </li>
         </ul>
@@ -138,7 +138,7 @@
 
     <section class="promo">
       <div class="container container-promo">
-        <div class="promo-wrap">
+        <div class="promo__wrap">
           <div class="promo__box-bg">
             <div class="promo__box-text">
               <p class="promo__text">Street fashion collection</p>
@@ -154,12 +154,12 @@
     </section>
     <!-- /.promo -->
 
-    <section class="goods goods-wrap">
+    <section class="goods goods__wrap">
       <div class="container">
         <div class="goods goods__link-wrap">
           <h2 class="goods__title">Shop by category</h2>
           <div class="goods link link--size">
-            <a href="#" class="goods-link link__btn link--top">View all</a>
+            <a href="#" class="link__btn link link--top">View all</a>
           </div>
         </div>
         <div class="goods goods__list-wrap">
@@ -168,16 +168,16 @@
               <div class="goods__item-wrap">
                 <img src="image/goods-jeans.jpg" alt="photo: model" class="goods__img">
               </div>
-              <div class="goods goods-item">
-                <span class="goods-item__goods-name">Jeans</span>
+              <div class="goods goods__text">
+                <span class="goods__name">Jeans</span>
               </div>
             </li>
             <li class="goods__item">
               <div class="goods__item-wrap">
                 <img src="image/goods-shirts.jpg" alt="photo: model" class="goods__img">
               </div>
-              <div class="goods goods-item">
-                <span class="goods-item__goods-name">Shirts</span>
+              <div class="goods goods__text">
+                <span class="goods__name">Shirts</span>
               </div>
             </li>
           </ul>
@@ -186,16 +186,16 @@
               <div class="goods__item-wrap">
                 <img src="image/goods-overalls.jpg" alt="photo: model" class="goods__img">
               </div>
-              <div class="goods goods-item">
-                <span class="goods-item__goods-name">Overvalls</span>
+              <div class="goods goods__text">
+                <span class="goods__name">Overvalls</span>
               </div>
             </li>
             <li class="goods__item">
               <div class="goods__item-wrap">
                 <img src="image/goods-jackets.jpg" alt="photo: model" class="goods__img">
               </div>
-              <div class="goods goods-item">
-                <span class="goods-item__goods-name">Jackets</span>
+              <div class="goods goods__text">
+                <span class="goods__name">Jackets</span>
               </div>
             </li>
           </ul>
@@ -209,7 +209,7 @@
   </main>
   <!-- /main -->
 
-  <footer class="footer footer-wrap">
+  <footer class="footer footer__wrap">
     <div class="container">
       <div class="footer__item-logo footer__item-logo--top">
         <a href="#" class="footer__logo-link">
@@ -246,32 +246,32 @@
           </li>
         </ul>
       </div>
-      <div class="footer footer-social">
-        <ul class="footer-social__list">
-          <li class="footer-social__item">
-            <a href="" class="footer-social__link">
-              <svg class="icon footer-social__icon footer-social__icon--fb" width="10.5" height="20">
+      <div class="footer footer__social">
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a href="" class="footer__social-link">
+              <svg class="icon footer__social-icon footer__social-icon--fb" width="10.5" height="20">
                 <use xlink:href="image/social-icons.svg#fb"></use>
               </svg>
             </a>
           </li>
-          <li class="footer-social__item">
-            <a href="" class="footer-social__link">
-              <svg class="icon footer-social__icon footer-social__icon--inst" width="20" height="20">
+          <li class="footer__social-item">
+            <a href="" class="footer__social-link">
+              <svg class="icon footer__social-icon footer__social-icon--inst" width="20" height="20">
                 <use xlink:href="image/social-icons.svg#inst"></use>
               </svg>
             </a>
           </li>
-          <li class="footer-social__item">
-            <a href="" class="footer-social__link">
-              <svg class="icon footer-social__icon footer-social__icon--pin" width="20" height="20">
+          <li class="footer__social-item">
+            <a href="" class="footer__social-link">
+              <svg class="icon footer__social-icon footer__social-icon--pin" width="20" height="20">
                 <use xlink:href="image/social-icons.svg#pin"></use>
               </svg>
             </a>
           </li>
-          <li class="footer-social__item">
-            <a href="" class="footer-social__link">
-              <svg class="icon footer-social__icon footer-social__icon--twit" width="20.38" height="16.47">
+          <li class="footer__social-item">
+            <a href="" class="footer__social-link">
+              <svg class="icon footer__social-icon footer__social-icon--twit" width="20.38" height="16.47">
                 <use xlink:href="image/social-icons.svg#twit"></use>
               </svg>
             </a>

@@ -1,6 +1,6 @@
 @media (max-width: 768px)
   .footer
-    &-wrap
+    &__wrap
       background: $main-dark
       padding-top: 50px
       padding-bottom: 52px
@@ -17,48 +17,46 @@
       display: flex
       padding: 0
       margin: 0
-      &-wrap
+    &__list-wrap
         display: flex
         justify-content: center
         margin-bottom: 42px
     &__item
-      padding: 10px 15px
+      padding: 0 17px
     &__link
       +medium
       color: $white
       font-size: 18px
       text-decoration: none
-    &-social
-      &__icon
-        fill: $white
-      &__list
+    &__social-list
         display: flex
         align-items: center
         justify-content: space-between
         list-style: none
         padding: 0 250px
         margin: 0
+    &__social-icon
+      fill: $white
 
 @media (max-width: 320px)
   .footer
-    &-wrap
+    &__wrap
       padding-top: 54px
       padding-bottom: 52px
-    &__item
-      &-logo
-        padding: 0
-        &--top
-          display: none
-        &--list
-          display: block
+    &__item-logo
+      padding: 0
+      &--top
+        display: none
+      &--list
+        display: block
     &__list
       flex-direction: column
       list-style: none
       margin-right: 80px
-      &-wrap
-        display: flex
-        justify-content: flex-start
-        margin-bottom: 12px
+    &__list-wrap
+      display: flex
+      justify-content: flex-start
+      margin-bottom: 12px
     &__item
       padding: 0
       margin-bottom: 30px
@@ -67,13 +65,12 @@
       color: $white
       font-size: 18px
       text-decoration: none
-    &-social
-      &__list
+    &__social-list
         display: flex
         align-items: center
         justify-content: flex-start
         list-style: none
         padding: 0
         margin: 0
-      &__item
+    &__social-item
         margin-right: 34px 

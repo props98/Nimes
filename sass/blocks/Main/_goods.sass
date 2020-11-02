@@ -1,6 +1,6 @@
 @media (max-width: 768px)
   .goods
-    &-wrap
+    &__wrap
       padding-bottom: 100px
     &__title
       +bold
@@ -25,17 +25,17 @@
       width: 324px
     &__img
       width: 100%  
-    &-item
+    &__text
       margin-top: 15px
-      &__goods-name
-        +bold
-        color: $main-dark
-        font-size: 18px
-        margin-bottom: 10px
+    &__name
+      +bold
+      color: $main-dark
+      font-size: 18px
+      margin-bottom: 10px
 
 @media (max-width: 320px)
   .goods
-    &-wrap
+    &__wrap
       padding-top: 60px
       padding-bottom: 60px
     &__title
@@ -49,8 +49,8 @@
         margin-bottom: 40px
     &__item-wrap
       width: 100%
-    &-item
+    &__text
       margin-top: 15px
-      &__goods-name
-        font-size: 16px
-        margin-bottom: 10px
+    &__name
+      font-size: 16px
+      margin-bottom: 10px
