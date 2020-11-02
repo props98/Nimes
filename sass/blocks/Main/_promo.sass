@@ -24,7 +24,6 @@
       flex-grow: 1
       overflow: hidden
     &__img
-      width: 100%
       height: 100%
     &__box-text
       text-align: left
@@ -33,12 +32,12 @@
       padding-top: 40px
       padding-bottom: 40px
 
-@media (max-width: 320px)
+@media (max-width: 700px)
   .promo
     &__wrap
       display: block
     &__box-bg
-      width: 290px
+      min-width: 290px
       padding: 0 15px
       padding-top: 15px
       background: url('../image/DecorElem2.png') center top / 120% repeat-y;
@@ -55,3 +54,5 @@
       font-size: 26px
       margin: 0
       margin-bottom: 30px
+    &__img
+      width: 100%
