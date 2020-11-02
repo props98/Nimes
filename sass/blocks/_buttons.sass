@@ -5,29 +5,49 @@
 
   padding: 0
 
-@media (max-width: 320px)
+@media (max-width: 768px)
+  .button
+    display: block
+    +extraBold
+    font-size: 18px
+    font-weight: bold
+    color: $white
+    text-decoration: none
+    background-color: $main-dark
+    &--hero
+      padding: 27px 17px
+    &--promo
+      text-align: center
+      max-width: 148px
+      padding: 24px 24px
   .link
+    &--bottom
+      display: none
+    &__btn
+      +medium
+      color: $main-dark
+      font-size: 18px
+      line-height: 35px
+      text-decoration: none
+      border-bottom: 1px solid $main-dark
+      padding-bottom: 7px
+
+@media (max-width: 700px)
+  .link
+    &--top
+      display: none
+    &--bottom
+      display: block
     &--size
       text-align: center
     &__btn
       text-align: center
       
-      +medium
-      color: $main-dark
       font-size: 16px
       line-height: 35px
-      text-decoration: none
-      border-bottom: 1px solid $main-dark
-      padding-bottom: 7px
   .button
-    display: block
     margin: 0 auto
-    +extraBold
     font-size: 16px
-    font-weight: bold
-    color: $white
-    text-decoration: none
-    background-color: $main-dark
     &--hero
       max-width: 170px
       padding: 27px 17px

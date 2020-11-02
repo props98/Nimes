@@ -1,30 +1,70 @@
-@media (max-width: 320px)
+@media (max-width: 768px)
   .goods
-    &-wrap
-      padding-top: 60px
-      padding-bottom: 60px
+    &__wrap
+      padding-bottom: 100px
     &__title
       +bold
-      font-size: 26px
+      font-size: 28px
       color: $main-dark
       margin: 0
-      margin-bottom: 40px
+      margin-bottom: 60px
+    &__link-wrap
+      display: flex
+      justify-content: space-between
+    &__list-wrap
+      margin-bottom: 30px
     &__list
       padding: 0
       margin: 0
-
-      margin-bottom: 40px
+      list-style: none
       display: flex
-      align-items: flex-end
       justify-content: space-between
+      &--top
+        align-items: flex-start
+      &--bottom
+        align-items: flex-end
+    &__item
+      margin-right: 10px
+      &:nth-of-type(even)
+        margin-right: 0
+    &__item-wrap
+      max-width: 324px
+    &__img
+      width: 100%  
+    &__text
+      margin-top: 15px
+    &__name
+      +bold
+      color: $main-dark
+      font-size: 18px
+      margin-bottom: 10px
+
+@media (max-width: 320px)
+  .goods
+    &__wrap
+      padding-top: 60px
+      padding-bottom: 60px
+    &__title
+      font-size: 26px
+      margin: 0
+      margin-bottom: 40px
+    &__list
+      display: flex
+      justify-content: space-between
+<<<<<<< HEAD
+      &--bottom
+        margin-bottom: 40px
+    &__item-wrap
+      max-width: 130px
+    &__text
+=======
     &__item
       max-width: 130px
       list-style: none
       word-wrap: break-word
     &-item
+>>>>>>> main
       margin-top: 15px
-      &__goods-name
-        +bold
-        color: $main-dark
-        font-size: 16px
-        margin-bottom: 10px
+    &__name
+      font-size: 16px
+      margin-bottom: 10px

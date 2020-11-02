@@ -1,25 +1,58 @@
-@media (max-width: 320px)
+@media (max-width: 768px)
   .promo
-    &-container
-      width: 290px
-      padding: 0 15px
-      padding-top: 15px
-      background: url('../image/DecorElem2.png') center top / 120% repeat-y;
-    &__box
-      text-align: center
-      background-color: $secondary-light
-      padding-top: 40px
-      padding-bottom: 40px
+    &__wrap
+      display: flex
+      flex-direction: row-reverse
     &__text
       color: $secondary-grey
       font-size: 18px
       margin: 0
-      margin-bottom: 12px
+      margin-bottom: 15px
     &__title
       display: block
       +extraBold
       color: $main-dark
       font-weight: bold
+      font-size: 32px
+      margin: 0
+      margin-bottom: 40px
+    &__box-bg
+      flex-grow: 1
+      padding: 20px 20px 20px 0
+      background: url('../image/DecorElem2.png') center top / 120% repeat-y;
+    &__box-img
+      flex-grow: 1
+      overflow: hidden
+    &__img
+      height: 100%
+    &__box-text
+      text-align: left
+      background-color: $secondary-light
+      padding-left: 50px
+      padding-top: 40px
+      padding-bottom: 40px
+
+@media (max-width: 700px)
+  .promo
+    &__wrap
+      display: block
+    &__box-bg
+      min-width: 290px
+      padding: 0 15px
+      padding-top: 15px
+      background: url('../image/DecorElem2.png') center top / 120% repeat-y;
+    &__box-text
+      text-align: center
+      background-color: $secondary-light
+      padding: 0
+      padding-top: 40px
+      padding-bottom: 40px
+    &__text
+      margin-bottom: 12px
+    &__title
+      display: block
       font-size: 26px
       margin: 0
       margin-bottom: 30px
+    &__img
+      width: 100%

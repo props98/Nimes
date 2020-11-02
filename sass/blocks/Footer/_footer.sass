@@ -1,34 +1,78 @@
-.footer
-  &-wrap
-    background: $main-dark
-    padding-top: 54px
-    padding-bottom: 52px
-  &__list
-    list-style: none
-    padding: 0
-    margin: 0
-    margin-right: 80px
-    &-wrap
-      display: flex
-      align-items: flex-end
-
-      margin-bottom: 12px
-  &__item
-    margin-bottom: 30px
-  &__link
-    +medium
-    color: $white
-    font-size: 18px
-    text-decoration: none
-  &-social
-    &__icon
-      fill: $white
+@media (max-width: 768px)
+  .footer
+    &__wrap
+      background: $main-dark
+      padding-top: 50px
+      padding-bottom: 52px
+    &__item-logo
+      padding-bottom: 40px
+      &--list
+        display: none
+    &__logo-link
+      display: block
+      width: 75px
+      margin: 0 auto
     &__list
+      list-style: none
+      display: flex
+      flex-wrap: wrap
+      padding: 0
+      margin: 0
+    &__list-wrap
+      display: flex
+      justify-content: center
+      margin-bottom: 42px
+    &__item
+      padding: 10px 17px
+    &__link
+      +medium
+      color: $white
+      font-size: 18px
+      text-decoration: none
+    &__social-list
+      max-width: 178px
       display: flex
       align-items: center
+      justify-content: space-between
+      list-style: none
+      padding: 0
+      margin: 0 auto
+    &__social-icon
+      fill: $white
 
+@media (max-width: 400px)
+  .footer
+    &__wrap
+      padding-top: 54px
+      padding-bottom: 52px
+    &__item-logo
+      padding: 0
+      &--top
+        display: none
+      &--list
+        display: block
+    &__list
+      flex-direction: column
+      list-style: none
+      margin-right: 80px
+    &__list-wrap
+      display: flex
+      justify-content: flex-start
+      margin-bottom: 12px
+    &__item
+      padding: 0
+      margin-bottom: 30px
+    &__link
+      +medium
+      color: $white
+      font-size: 18px
+      text-decoration: none
+    &__social-list
+      display: flex
+      align-items: center
+      justify-content: flex-start
       list-style: none
       padding: 0
       margin: 0
-    &__item
+    &__social-item
       margin-right: 34px 

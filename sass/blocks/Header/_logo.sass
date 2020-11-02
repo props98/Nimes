@@ -1,4 +1,4 @@
-@media (max-width: 320px)
+@media (max-width: 768px)
   .logo
     display: flex
     justify-content: center
@@ -7,6 +7,10 @@
       max-height: 17px
     &--top
       background: $white
-      padding: 20px
+      padding: 25px
     &--center
       display: none
+@media (max-width: 320px)
+  .logo
+    &--top
+      padding: 20px
