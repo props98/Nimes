@@ -553,6 +553,7 @@ template {
 
 @media (max-width: 768px) {
   .hero {
+<<<<<<< HEAD
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -642,6 +643,12 @@ template {
   .hero__wrap {
     width: 202px;
     height: 249px;
+=======
+    text-align: center;
+  }
+  .hero-wrap {
+    position: relative;
+>>>>>>> main
     margin-bottom: 50px;
     padding: 0;
   }
@@ -661,7 +668,11 @@ template {
     position: absolute;
     background: url("../image/decElem.png") center center/100% no-repeat;
     bottom: -20px;
+<<<<<<< HEAD
     right: -20px;
+=======
+    right: 20px;
+>>>>>>> main
     -webkit-transform: scale(1, -1);
             transform: scale(1, -1);
   }
@@ -696,6 +707,7 @@ template {
     font-family: 'Anton-Regular', sans-serif;
     font-size: 86px;
     color: #151C22;
+    word-wrap: break-word;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
@@ -824,10 +836,15 @@ template {
     width: 130px;
     height: 160px;
   }
+<<<<<<< HEAD
   .features__item {
     margin-top: 30px;
   }
   .features__text {
+=======
+  .features-item {
+    max-width: 130px;
+>>>>>>> main
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -836,6 +853,7 @@ template {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 15px;
+    word-wrap: break-word;
   }
   .features__name {
     font-size: 16px;
@@ -972,10 +990,16 @@ template {
             align-items: flex-end;
   }
   .goods__item {
+<<<<<<< HEAD
     margin-right: 10px;
   }
   .goods__item:nth-of-type(even) {
     margin-right: 0;
+=======
+    max-width: 130px;
+    list-style: none;
+    word-wrap: break-word;
+>>>>>>> main
   }
   .goods__item-wrap {
     max-width: 324px;
