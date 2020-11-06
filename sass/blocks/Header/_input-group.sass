@@ -1,7 +1,14 @@
-@media (max-width: 768px)
+@media (max-width: 1334px)
   .input-group
     display: flex
+    flex-direction: column
     &__input
       display: none
     &__icon-basket
+      margin-top: 35px
+@media (max-width: 768px)
+  .input-group
+    flex-direction: row
+    &__icon-basket
+      margin: 0px
       margin-left: 23px

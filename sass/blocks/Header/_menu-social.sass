@@ -1,11 +1,12 @@
-@media (max-width: 7680px)
+@media (max-width: 1334px)
   .menu-social
     display: flex
     justify-content: space-between
     align-items: flex-end
     padding: 70px 0 0
     &__wrap
-      display: flex
+      // display: flex
+      // flex-direction: column
     &__link
       display: block
 
@@ -14,7 +15,18 @@
       font-size: 14px
       color: $main-dark
       &--fb
+        margin-top: 35px
+
+@media (max-width: 768px)
+  .menu-social
+    flex-direction: row
+    &__wrap
+      display: flex
+    &__link
+      &--fb
+        margin: 0
         margin-left: 35px
+
 
 @media (max-width: 320px)
   .menu-social
